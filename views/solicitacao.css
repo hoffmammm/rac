@@ -36,7 +36,7 @@ header {
 }
 
 #img {
-    height: 70px; /* Ajuste a altura conforme necessário */
+    height: 70px;
 }
 
 /* Estilo do contêiner de navegação */
@@ -65,11 +65,39 @@ header {
 }
 
 /* Estilo da seção principal com título e subtítulo */
+.container {
+    text-align: center;
+    padding: 30px 20px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+p {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+/* Estilo da seção de solicitação */
 section {
     flex: 1;
     padding: 30px;
+    background-color: #f9f9f9;
 }
 
+.container01 {
+    width: 80%;
+    margin: 0 auto;
+}
+
+h2 {
+    margin-top: 0;
+    font-size: 1.8em;
+}
+
+/* Estilo do formulário */
 form {
     display: flex;
     flex-direction: column;
@@ -77,11 +105,19 @@ form {
 
 form label {
     margin-top: 10px;
+    font-weight: bold;
 }
 
 form input, form textarea {
     padding: 10px;
     margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+form textarea {
+    resize: vertical;
 }
 
 form button {
@@ -90,37 +126,15 @@ form button {
     background-color: #007bff;
     color: #fff;
     border: none;
+    border-radius: 5px;
     cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s;
 }
 
-.instagram-profiles {
-    padding-top: 2%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    gap: 20px; /* Espaçamento entre os perfis */
+form button:hover {
+    background-color: #0056b3;
 }
-
-.profile {
-    flex: 0 1 150px;
-    text-align: center;
-}
-
-.profile img {
-    border-radius: 20%;
-    width: 100px;
-    height: 100px;
-    
-}
-a {
-    text-decoration: none;
-    color: black;
-    
-}
-a :hover {
-    color: #23910d;
-}
-
 
 /* Estilo do footer */
 footer {
@@ -132,8 +146,4 @@ footer {
 
 footer p {
     margin: 0;
-}
-
-.container01 h2 {
-    text-align: center;
 }

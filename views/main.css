@@ -9,7 +9,9 @@ body {
     display: flex;
     flex-direction: column;
 }
-
+#img {
+    height: 100px;
+}
 .container {
     width: 80%;
     margin: 0 auto;
@@ -83,4 +85,8 @@ footer {
     color: #fff;
     padding: 10px 0;
     text-align: center;
+}
+
+.container {
+    background-image: url("rede01.png");
 }
