@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InfraTech - Solicitação de Serviços de Cabeamento Estruturado</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <ul>
+                    <li><img src="../logosoloTechNator.png" alt="Logo" id="img" height="70px"></li>
+                    <li><a href="../index.html">Quem Somos</a></li>
+                    <li><a href="solicitacao.html">Solicitação de Serviços</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container">
+        <h1>TechNator</h1>
+        <p>Serviços de Infraestrutura de Rede</p>
+    </div>
+    
+    <section id="solicitacao">
+        <div class="container01">
+            <h2>Solicitação de Serviços</h2>
+            <form action="solicitacao.php" method="post">
+                <label for="nome">Nome Completo:</label>
+                <input type="text" id="nome" name="nome" required>
+
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="telefone">Telefone:</label>
+                <input type="tel" id="telefone" name="telefone" required>
+
+                <label for="empresa">Nome da Empresa:</label>
+                <input type="text" id="empresa" name="empresa" required>
+
+                <label for="descricao">Descrição do Serviço:</label>
+                <textarea id="descricao" name="descricao" rows="4" required></textarea>
+
+                <button type="submit">Enviar Solicitação</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>TechNator® - Feito com amor 💙 por TechNator - 2023</p>
+        </div>
+    </footer>
+</body>
+
+</html>
