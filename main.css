@@ -1,3 +1,31 @@
+/* Resetando as margens */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Definindo tamanho do container do texto */
+  .text-container {
+    max-width: 350px;
+    height: 12vh;
+    font-size: 1rem;
+    overflow-y: auto;
+  }
+
+  html ::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  html ::-webkit-scrollbar-thumb {
+    border-radius: 50px;
+    background: #147912;
+  }
+  
+  html ::-webkit-scrollbar-track {
+    background: #ededed;
+  }
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -145,4 +173,7 @@ footer {
 
 footer p {
     margin: 0;
+}
+.container p {
+    color: white;
 }
