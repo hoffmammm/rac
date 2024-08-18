@@ -1,3 +1,4 @@
+
 /* Reseta margens e adiciona padding padrão */
 html, body {
     height: 100%;
@@ -83,17 +84,19 @@ p {
 section {
     flex: 1;
     padding: 30px;
-    background-color: #f9f9f9;
+    background-color: white;
 }
 
 .container01 {
-    width: 80%;
+    width: 25%;
     margin: 0 auto;
 }
 
 h2 {
     margin-top: 0;
     font-size: 1.8em;
+    text-align: center;
+    color: black;
 }
 
 /* Estilo do formulário */
@@ -105,6 +108,10 @@ form {
 form label {
     margin-top: 10px;
     font-weight: bold;
+    color: black;
+    text-align: left;
+    margin-left: 1%;
+
 }
 
 form input, form textarea {
@@ -135,3 +142,16 @@ form button:hover {
     background-color: #1a9f17;
 }
 
+.solicitacao {
+    width: 400px;
+    background-color: #f9f9f9;
+    color: #ffffff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px #c3c1c1;
+    text-align: center;
+}
+.solicitacao div {
+    display: flex;
+    align-items: center;
+}
